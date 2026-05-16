@@ -1,0 +1,22 @@
+Package: apodemus-sdm
+Title: Species Distribution Modeling of Apodemus peninsulae under Climate Change
+Version: 1.0.0
+Author: 刘一静
+Maintainer: liuyijing@email.com
+Description: 
+    Code and data for undergraduate thesis on predicting habitat
+    suitability shifts of Apodemus peninsulae (大林姬鼠) in China
+    under future climate scenarios (SSP126, SSP245, SSP585).
+    Implements MaxEnt (via maxnet) and Poisson Point Process (PPP)
+    models with soil_type interaction, nested cross-validation, and
+    Multivariate Environmental Similarity Surface (MOP) analysis.
+License: MIT
+Depends:
+    R >= 4.2.0,
+    terra,
+    maxnet,
+    mgcv,
+    pROC,
+    ggplot2,
+    dplyr,
+    corrplot

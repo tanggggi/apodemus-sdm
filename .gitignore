@@ -1,0 +1,22 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Raster data (too large for git)
+*.tif
+*.tiff
+*.grd
+*.gri
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.log
+*.aux
+*.bak
+~$*
