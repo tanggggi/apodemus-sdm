@@ -1,8 +1,8 @@
 Package: apodemus-sdm
 Title: Species Distribution Modeling of Apodemus peninsulae under Climate Change
 Version: 1.0.0
-Author: 刘一静
-Maintainer: liuyijing@email.com
+Author: 汤泳思
+Maintainer: tangyongsi@sdu.edu.cn
 Description: 
     Code and data for undergraduate thesis on predicting habitat
     suitability shifts of Apodemus peninsulae (大林姬鼠) in China
