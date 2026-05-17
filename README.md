@@ -93,7 +93,7 @@ install.packages(c(
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/liuyijing/apodemus-sdm.git
+   git clone https://github.com/汤泳思用户名/apodemus-sdm.git
    cd apodemus-sdm
    ```
 
