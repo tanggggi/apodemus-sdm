@@ -1,7 +1,11 @@
 #!/usr/bin/env Rscript
 # PPP模型：交互项 + 稀有土壤组合并
+# ⚠️ 运行前: 编辑下方 workdir 和所有文件路径为你的本地数据目录
+#    或运行 scripts/00_setup.R 配置环境
 cat("=== PPP模型：交互项（土壤组合并版）===\n"); cat("时间:",format(Sys.time(),"%Y-%m-%d %H:%M:%S"),"\n\n")
 library(terra); library(mgcv)
+
+# >>> 配置数据路径（根据你的本地环境修改）<<<
 workdir <- "/Users/hjhj/.openclaw/workspace/unified_2km"
 template <- rast(file.path(workdir,"mop_classified_2km.tif"))
 TSS <- 0.051655; CELL_2KM <- 2.799
