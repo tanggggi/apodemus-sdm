@@ -1,6 +1,20 @@
 # Apodemus peninsulae 分布域内的生态因子分析
 
-*大林姬鼠（*Apodemus peninsulae*）分布域内的生态因子分析*
+<div align="center">
+
+![R](https://img.shields.io/badge/R-4.2%2B-276DC3?logo=r&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026--05-21-blue)
+![Species Distribution Model](https://img.shields.io/badge/SDM-MaxEnt%20%7C%20PPP-orange)
+
+**大林姬鼠（*Apodemus peninsulae*）分布域内的生态因子分析**
+
+[📄 论文](paper/) • [📊 图表](results/figures/) • [📦 数据](data/) • [⚡ 复现](scripts/)
+
+</div>
+
+---
 
 ## 项目概述
 
@@ -37,7 +51,7 @@ GBIF 83条存在记录 + WorldClim气候 + FAO土壤 + MODIS纹理 + SRTM地形
     │                                             │
     └─ PPP泊松点过程模型（组分布交互）──────────┐
         - mgcv::gam(binomial(cloglog))          │
-        - bio1 + bio19 × soil_type_merged       │
+        - bio1 × bio19 × soil_type_merged       │
         - MOP外推风险评估                        │
         └──→ 面积变化分析 ──→ 论文图表 ──→ 结论
 ```
